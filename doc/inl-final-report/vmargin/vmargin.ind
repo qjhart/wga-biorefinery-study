@@ -1,0 +1,100 @@
+
+ \begin{theindex} 
+ \makeatletter\scan@allowedfalse
+{\bfseries\hfil Symbols\hfil}\nopagebreak
+
+  \item \verb*+\@@@setps+\pfill 25, 26, 172
+  \item \verb*+\@@setps+\pfill 22, 23
+  \item \verb*+\@defmetricpaper+\pfill \main{48}, 67--70
+  \item \verb*+\@hf@dflt+\pfill 165, 171, 175
+  \item \verb*+\@name@err+\pfill 24, 27, 42, 45
+  \item \verb*+\@po@+\pfill 33, 59, 71--74
+  \item \verb*+\@shiftmarginsfalse+\pfill 86
+  \item \verb*+\@shiftmarginstrue+\pfill 87
+
+  \indexspace
+{\bfseries\hfil C\hfil}\nopagebreak
+
+  \item \verb*+\chk@dimen+\pfill 101, 123, \main{137}
+  \item \verb*+\chk@dimen@err+\pfill 147, \main{149}
+
+  \indexspace
+{\bfseries\hfil F\hfil}\nopagebreak
+
+  \item \verb*+\filedate+\pfill 5, 8, 13
+  \item \verb*+\filename+\pfill 2, 3, 8, 14, 15, 45, 158, 160
+  \item \verb*+\fileversion+\pfill 4, 8, 13
+
+  \indexspace
+{\bfseries\hfil H\hfil}\nopagebreak
+
+  \item \verb*+\h+\pfill 51, 52, 59, 61
+  \item \verb*+\hoffset+\pfill \usage{3}, 79, 82
+
+  \indexspace
+{\bfseries\hfil I\hfil}\nopagebreak
+
+  \item \verb*+\if@shiftmargins+\pfill 77, 85
+  \item \verb*+\ifLandscape+\pfill \usage{2}, \main{19}, 33
+
+  \indexspace
+{\bfseries\hfil L\hfil}\nopagebreak
+
+  \item \verb*+\l+\pfill 53
+  \item \verb*+\Landscapefalse+\pfill 31, 169
+  \item \verb*+\Landscapetrue+\pfill 32, 170
+
+  \indexspace
+{\bfseries\hfil M\hfil}\nopagebreak
+
+  \item \verb*+\margin@offset+\pfill \usage{3}, \main{75}, 89, 104
+
+  \indexspace
+{\bfseries\hfil P\hfil}\nopagebreak
+
+  \item \verb*+\paper@custom+\pfill 74
+  \item \verb*+\paper@USexecutive+\pfill 73
+  \item \verb*+\paper@USlegal+\pfill 72
+  \item \verb*+\paper@USletter+\pfill 71
+  \item \verb*+\PaperHeight+\pfill \usage{2}, \main{19}, 34, 37, 39, 59, 
+		71--74, 108, 146
+  \item \verb*+\paperheight+\pfill 37
+  \item \verb*+\PaperWidth+\pfill \usage{2}, \main{19}, 34, 36, 38, 59, 
+		71--74, 91, 105, 115, 140
+  \item \verb*+\paperwidth+\pfill 36
+  \item \verb*+\pdfpageheight+\pfill 39
+  \item \verb*+\pdfpagewidth+\pfill 38
+  \item \verb*+\po@landscape+\pfill 32
+  \item \verb*+\po@portrait+\pfill 31
+
+  \indexspace
+{\bfseries\hfil S\hfil}\nopagebreak
+
+  \item \verb*+\s+\pfill 51, 61
+  \item \verb*+\setmarg+\pfill \usage{3}, \main{131}
+  \item \verb*+\setmargins+\pfill \usage{2}, \main{88}, 126, 132
+  \item \verb*+\setmarginsrb+\pfill \usage{3}, \main{103}, 129, 135, 
+		178
+  \item \verb*+\setmargnohf+\pfill \usage{3}, \main{125}
+  \item \verb*+\setmargnohfrb+\pfill \usage{3}, \main{128}, 176
+  \item \verb*+\setmargrb+\pfill \usage{3}, \main{134}
+  \item \verb*+\setpapersize+\pfill \usage{2}, \main{22}, 164
+  \item \verb*+\shiftmargins+\pfill \main{85}, 168
+
+  \indexspace
+{\bfseries\hfil T\hfil}\nopagebreak
+
+  \item \verb*+\t+\pfill 56, 57
+
+  \indexspace
+{\bfseries\hfil V\hfil}\nopagebreak
+
+  \item \verb*+\Vmargin+\pfill 8--10, 13--17
+  \item \verb*+\voffset+\pfill \usage{3}, 79, 82
+
+  \indexspace
+{\bfseries\hfil W\hfil}\nopagebreak
+
+  \item \verb*+\w+\pfill 51, 52, 59, 61
+
+ \end{theindex}

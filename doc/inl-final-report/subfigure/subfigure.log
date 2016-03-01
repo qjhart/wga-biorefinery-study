@@ -1,0 +1,565 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2009.6.23)  23 JUN 2009 17:28
+entering extended mode
+ %&-line parsing enabled.
+**subfigure.dtx
+(./subfigure.dtx
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+File: subfigure.dtx 
+(/usr/share/texmf-texlive/tex/latex/base/ltxdoc.cls
+Document Class: ltxdoc 1999/08/08 v2.0u Standard LaTeX documentation class
+*************************************
+* Local config file ltxdoc.cfg used
+*************************************
+(./ltxdoc.cfg) (/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/base/doc.sty
+Package: doc 2006/02/02 v2.1d Standard LaTeX documentation package (FMi)
+\c@StandardModuleDepth=\count87
+\guard@level=\count88
+\MacrocodeTopsep=\skip43
+\MacroIndent=\dimen103
+\macro@cnt=\count89
+\MacroTopsep=\skip44
+\index@excludelist=\toks14
+
+(/usr/share/texmf-texlive/tex/latex/tools/multicol.sty
+Package: multicol 2006/05/18 v1.6g multicolumn formatting (FMi)
+\c@tracingmulticols=\count90
+\mult@box=\box26
+\multicol@leftmargin=\dimen104
+\c@unbalance=\count91
+\c@collectmore=\count92
+\doublecol@number=\count93
+\multicoltolerance=\count94
+\multicolpretolerance=\count95
+\full@width=\dimen105
+\page@free=\dimen106
+\premulticols=\dimen107
+\postmulticols=\dimen108
+\multicolsep=\skip45
+\multicolbaselineskip=\skip46
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count96
+\c@finalcolumnbadness=\count97
+\last@try=\dimen109
+\multicolovershoot=\dimen110
+\multicolundershoot=\dimen111
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+)
+\IndexMin=\dimen112
+\c@IndexColumns=\count98
+\GlossaryMin=\dimen113
+\c@GlossaryColumns=\count99
+\check@sum=\count100
+\bslash@cnt=\count101
+\wrong@table=\toks15
+\c@CodelineNo=\count102
+)) (./subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip47
+\subfigcapskip=\skip48
+\subfigcaptopadj=\dimen114
+\subfigbottomskip=\skip49
+\subfigcapmargin=\dimen115
+\subfiglabelskip=\skip50
+\c@subfigure=\count103
+\c@lofdepth=\count104
+\c@subtable=\count105
+\c@lotdepth=\count106
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(./subfigure.cfg)
+\subfig@top=\skip51
+\subfig@bottom=\skip52
+)
+
+LaTeX Warning: You have requested, on input line 49, version
+               `2005/04/29' of package subfigure,
+               but only version
+               `2002/03/15 v2.1.5 subfigure package'
+               is available.
+
+(./subfigure.aux)
+\openout1 = `subfigure.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+\@glossaryfile=\write3
+\openout3 = `subfigure.glo'.
+
+
+Writing glossary file subfigure.glo 
+\@indexfile=\write4
+\openout4 = `subfigure.idx'.
+
+Writing index file subfigure.idx
+Package doc Info: Made | a short reference for \verb on input line 56.
+(./subfigure.dtx
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 234.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 234.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 234.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 234.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 234.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 238.
+ [1
+
+] (./subfigure.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+)
+\tf@toc=\write5
+\openout5 = `subfigure.toc'.
+
+ [2] (./subfigure.lot)
+\tf@lot=\write6
+\openout6 = `subfigure.lot'.
+
+ (./subfigure.lof)
+\tf@lof=\write7
+\openout7 = `subfigure.lof'.
+
+
+[3] [4]
+
+LaTeX Warning: Marginpar on page 5 moved.
+
+Package doc Info: Deleted | as a short reference for \verb(*) on input line 397
+.
+
+Overfull \hbox (27.25194pt too wide) in paragraph at lines 476--477
+ [][] 
+ []
+
+Package doc Info: Made | a short reference for \verb on input line 478.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 492.
+
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 492.
+
+Overfull \hbox (18.01712pt too wide) in paragraph at lines 485--513
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 521.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 533.
+[5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 745--763
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <8> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 780.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <8> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 785.
+
+[7] [8] [9] [10]
+Underfull \hbox (badness 1014) in paragraph at lines 839--839
+[]\OT1/cmr/m/n/8 (b) Sec-ond long, long, long,
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 858--858
+[]\OT1/cmr/m/n/8 (b) Sec-ond long, long, long,
+ []
+
+[11]
+Package doc Info: Deleted | as a short reference for \verb(*) on input line 916
+.
+Package doc Info: Made / a short reference for \verb on input line 917.
+
+Overfull \hbox (1.10973pt too wide) detected at line 940
+\OT1/cmr/m/n/10 0.33 em plus 0.07 em
+ []
+
+Package doc Info: Deleted / as a short reference for \verb(*) on input line 945
+.
+Package doc Info: Made | a short reference for \verb on input line 946.
+[12] [13] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1144
+[]\OT1/cmr/m/n/8 (b) Sec-ond
+ []
+
+[15]
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+[16] [17] [18]
+\tempbox=\box52
+\tempdima=\dimen116
+\tempdimb=\dimen117
+
+Overfull \hbox (0.79958pt too wide) detected at line 1524
+ []
+ []
+
+
+Overfull \hbox (0.79958pt too wide) detected at line 1524
+ []
+ []
+
+
+LaTeX Warning: Float too large for page by 8.89017pt on input line 1638.
+
+
+LaTeX Warning: Marginpar on page 19 moved.
+
+[19] [20]
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+[21]
+
+LaTeX Warning: Marginpar on page 22 moved.
+
+
+LaTeX Warning: Marginpar on page 22 moved.
+
+
+LaTeX Warning: Marginpar on page 22 moved.
+
+[22] [23] [24] [25]
+Package doc Info: Deleted | as a short reference for \verb(*) on input line 205
+2.
+Package doc Info: Made | a short reference for \verb on input line 2062.
+Package doc Info: Deleted | as a short reference for \verb(*) on input line 208
+2.
+ [26]
+Overfull \hbox (2.1304pt too wide) in paragraph at lines 2084--2084
+[]\OT1/cmss/m/n/10 nosubfigure\OT1/cmr/m/n/10 , 
+ []
+
+Package doc Info: Made | a short reference for \verb on input line 2097.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2083--2098
+
+ []
+
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+[27]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2193.
+
+\subfigbox=\box53
+ [28] [29] [30]
+Package doc Info: Deleted | as a short reference for \verb(*) on input line 256
+0.
+Package doc Info: Made / a short reference for \verb on input line 2561.
+
+Overfull \hbox (61.21913pt too wide) in paragraph at lines 2574--2638
+[][]  
+ []
+
+Package doc Info: Deleted / as a short reference for \verb(*) on input line 264
+0.
+Package doc Info: Made | a short reference for \verb on input line 2641.
+[31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45]
+[46]
+LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 3938
+.
+
+Underfull \hbox (badness 5787) in paragraph at lines 3938--3938
+[]\OT1/cmr/m/n/10 Harald Axel Som-mer-feldt, \OT1/cmr/m/it/10 The \OT1/cmss/m/s
+l/10 cap-tion \OT1/cmr/m/it/10 Pack-age\OT1/cmr/m/n/10 , Ver-sion 2.0(beta),
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 3938--3938
+[]\OT1/cmr/m/n/10 Anselm Ling-nau, \OT1/cmr/m/it/10 An Im-proved En-vi-ron-ment
+ for Floats. \OT1/cmr/m/n/10 Ver-sion 1.3d,
+ []
+
+*******************
+* Checksum passed *
+*******************
+) (./subfigure.gls
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+[]| \OT1/cmr/m/n/9 Gen-eral: Changed test for 
+ []
+
+
+Underfull \hbox (badness 6332) in paragraph at lines 13--15
+\OT1/cmr/m/n/9 empty sub-cap-tion in-side of 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+\OT1/cmr/m/n/9 that con-tained ex-pres-sions 
+ []
+
+
+Underfull \hbox (badness 5091) in paragraph at lines 19--21
+\OT1/cmr/m/n/9 out by Tom Scavo (scav-o- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+\OT1/cmr/m/n/9 shall (S.MarshalHull.ac.uk). 
+ []
+
+
+Underfull \hbox (badness 7047) in paragraph at lines 19--21
+\OT1/cmtt/m/n/9 \subfigbottomskip \OT1/cmr/m/n/9 and not 
+ []
+
+[47]
+Underfull \hbox (badness 8132) in paragraph at lines 22--24
+[]| \OT1/cmr/m/n/9 Gen-eral: Changed to use the 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+\OT1/cmr/m/n/9 old form caused a prob- 
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 22--24
+\OT1/cmr/m/n/9 An-drew Anselmo (ansel-moc- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+\OT1/cmr/m/n/9 umesb.mech.columbia.edu). 
+ []
+
+
+Underfull \hbox (badness 6808) in paragraph at lines 27--29
+\OT1/cmr/m/n/9 sub-cap-tions be-fore or af-ter 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+[]| []\OT1/cmtt/m/n/9 \@listsubcaptions\OT1/cmr/m/n/9 : Added to 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+[]| []\OT1/cmtt/m/n/9 \@makesubtablecaption\OT1/cmr/m/n/9 : Added 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+[]| []\OT1/cmtt/m/n/9 \@subcaption\OT1/cmr/m/n/9 : Now us-ing 
+ []
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+[]| \OT1/cmr/m/n/9 Added set-ting \OT1/cmtt/m/n/9 \label \OT1/cmr/m/n/9 to 
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 56--58
+[]| \OT1/cmr/m/n/9 Added the \OT1/cmss/m/n/9 FIG-BOT-CAP \OT1/cmr/m/n/9 and 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+[]| \OT1/cmr/m/n/9 Re-moved com-pat-i-bil-ity with 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
+[]| []\OT1/cmtt/m/n/9 \ifsubfiguretopcap\OT1/cmr/m/n/9 : Added to 
+ []
+
+
+Underfull \hbox (badness 8113) in paragraph at lines 86--88
+[]| \OT1/cmr/m/n/9 Fixed \OT1/cmtt/m/n/9 \protect \OT1/cmr/m/n/9 re-lated bug 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
+[]| []\OT1/cmtt/m/n/9 \subfig@caption\OT1/cmr/m/n/9 : Added 
+ []
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+[]| []\OT1/cmtt/m/n/9 \subfigcapmargin\OT1/cmr/m/n/9 : Re-duced 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+[]| \OT1/cmr/m/n/9 Moved \OT1/cmtt/m/n/9 \leavevmode \OT1/cmr/m/n/9 to 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
+\OT1/cmr/m/n/9 Martin.Bernreuther@po.uni- 
+ []
+
+
+Underfull \hbox (badness 5878) in paragraph at lines 112--114
+\OT1/cmr/m/n/9 in-ter-ac-tion with the hy-per- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+[]| \OT1/cmr/m/n/9 Gen-eral: Changed \OT1/cmtt/m/n/9 \newcommand 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+\OT1/cmr/m/n/9 to \OT1/cmtt/m/n/9 \providecommand \OT1/cmr/m/n/9 to al- 
+ []
+
+
+Underfull \hbox (badness 7379) in paragraph at lines 123--125
+\OT1/cmr/m/n/9 low other pack-ages to set 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
+[]| \OT1/cmr/m/n/9 Gen-eral: Added \OT1/cmtt/m/n/9 \label \OT1/cmr/m/n/9 com- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
+[]| \OT1/cmr/m/n/9 Changed the la-bel and 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
+\OT1/cmr/m/n/9 cap-tion de-faults from 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
+\OT1/cmtt/m/n/9 \rmfamily\mdseries\upshape 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
+[]| []\OT1/cmtt/m/n/9 \listsubcaptions\OT1/cmr/m/n/9 : Changed 
+ []
+
+[50]
+Underfull \hbox (badness 6725) in paragraph at lines 140--142
+[]| []\OT1/cmtt/m/n/9 \sf@@sub@label\OT1/cmr/m/n/9 : Moved \OT1/cmtt/m/n/9 \rel
+ax 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
+[]| []\OT1/cmtt/m/n/9 \sf@sub@label\OT1/cmr/m/n/9 : Moved \OT1/cmtt/m/n/9 \rela
+x 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
+[]| []\OT1/cmtt/m/n/9 \subcapfont@c\OT1/cmr/m/n/9 : Changed the 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
+[]| []\OT1/cmtt/m/n/9 \subcapfont@f\OT1/cmr/m/n/9 : Changed the 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
+[]| []\OT1/cmtt/m/n/9 \subcapfont@s\OT1/cmr/m/n/9 : Changed the 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
+\OT1/cmtt/m/n/9 \subcaplabelfont@c \OT1/cmr/m/n/9 de-fault 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
+\OT1/cmtt/m/n/9 \subcaplabelfont@f \OT1/cmr/m/n/9 de-fault 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
+\OT1/cmtt/m/n/9 \subcaplabelfont@s \OT1/cmr/m/n/9 de-fault 
+ []
+
+) (./subfigure.ind [51]
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+[]\OT1/cmtt/m/n/9 subfloat \OT1/cmr/m/n/9 (en-vi-ron- 
+ []
+
+[52]) (./subfigure.aux) ) 
+Here is how much of TeX's memory you used:
+ 958 strings out of 95087
+ 11726 string characters out of 1183278
+ 93595 words of memory out of 1500000
+ 4142 multiletter control sequences out of 10000+50000
+ 16917 words of font info for 58 fonts, out of 1200000 for 2000
+ 28 hyphenation exceptions out of 8191
+ 30i,12n,27p,1013b,574s stack positions out of 5000i,500n,6000p,200000b,5000s
+
+Output written on subfigure.dvi (52 pages, 198532 bytes).

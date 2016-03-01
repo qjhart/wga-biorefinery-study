@@ -1,0 +1,14 @@
+LaTeX packages required to build this article:
+elsarticle
+graphicx
+float
+hyperref
+natbib
+amsfonts
+amsmath
+amssymb
+textcomp
+array
+epstopdf
+url
+ctable

@@ -1,0 +1,122 @@
+<?xml version="1.0" ?><Map bgcolor="rgb(255,255,255)" srs="+proj=lcc +lat_1=33 +lat_2=45 +lat_0=39 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +datum=NAD83 +units=m +no_defs">
+    <Style name="level1_style">
+        <Rule>
+            <Filter>([f_type]='dry_mill')</Filter>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='fame')</Filter>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='ft_diesel')</Filter>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='lce')</Filter>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='wet_mill')</Filter>
+        </Rule>
+    </Style>
+    <Style name="level2_style">
+        <Rule>
+            <Filter>([f_type]='dry_mill')</Filter>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='fame')</Filter>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='ft_diesel')</Filter>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='lce')</Filter>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='wet_mill')</Filter>
+        </Rule>
+    </Style>
+    <Style name="level3_style">
+        <Rule>
+            <Filter>([f_type]='dry_mill')</Filter>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='fame')</Filter>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='ft_diesel')</Filter>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='lce')</Filter>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='wet_mill')</Filter>
+        </Rule>
+    </Style>
+    <Style name="level4_style">
+        <Rule>
+            <Filter>([f_type]='dry_mill')</Filter>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='fame')</Filter>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='ft_diesel')</Filter>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='lce')</Filter>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='wet_mill')</Filter>
+        </Rule>
+    </Style>
+    <Layer name="level4" srs="+proj=lcc +lat_1=33 +lat_2=45 +lat_0=39 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +datum=NAD83 +units=m +no_defs">
+        <StyleName>level4_style</StyleName>
+        <Datasource>
+            <Parameter name="dbname">geo</Parameter>
+            <Parameter name="estimate_extent">0</Parameter>
+            <Parameter name="extent">150030.199851,116025.673639,896968.320855,388007.214114</Parameter>
+            <Parameter name="geometry_field">location</Parameter>
+            <Parameter name="srid">0</Parameter>
+            <Parameter name="table">(SELECT * FROM &quot;r_baseline&quot;.&quot;run12brfn_locations&quot; WHERE GeometryType(&quot;location&quot;) IN ('POINT','MULTIPOINT') and production between 151 and 200) as &quot;run12brfn_locations&quot;</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="user"/>
+        </Datasource>
+    </Layer>
+    <Layer name="level3" srs="+proj=lcc +lat_1=33 +lat_2=45 +lat_0=39 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +datum=NAD83 +units=m +no_defs">
+        <StyleName>level3_style</StyleName>
+        <Datasource>
+            <Parameter name="dbname">geo</Parameter>
+            <Parameter name="estimate_extent">0</Parameter>
+            <Parameter name="extent">-2252414.26158,-338393.811208,704579.894369,572867.526647</Parameter>
+            <Parameter name="geometry_field">location</Parameter>
+            <Parameter name="srid">0</Parameter>
+            <Parameter name="table">(SELECT * FROM &quot;r_baseline&quot;.&quot;run12brfn_locations&quot; WHERE GeometryType(&quot;location&quot;) IN ('POINT','MULTIPOINT')and production between 101 and 150) as &quot;run12brfn_locations&quot;</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="user"/>
+        </Datasource>
+    </Layer>
+    <Layer name="level2" srs="+proj=lcc +lat_1=33 +lat_2=45 +lat_0=39 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +datum=NAD83 +units=m +no_defs">
+        <StyleName>level2_style</StyleName>
+        <Datasource>
+            <Parameter name="dbname">geo</Parameter>
+            <Parameter name="estimate_extent">0</Parameter>
+            <Parameter name="extent">-2173558.41637,-1291465.9268,1831041.4408,1026207.80396</Parameter>
+            <Parameter name="geometry_field">location</Parameter>
+            <Parameter name="srid">0</Parameter>
+            <Parameter name="table">(SELECT * FROM &quot;r_baseline&quot;.&quot;run12brfn_locations&quot; WHERE GeometryType(&quot;location&quot;) IN ('POINT','MULTIPOINT') and production between 51 and 100) as &quot;run12brfn_locations&quot;</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="user"/>
+        </Datasource>
+    </Layer>
+    <Layer name="level1" srs="+proj=lcc +lat_1=33 +lat_2=45 +lat_0=39 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +datum=NAD83 +units=m +no_defs">
+        <StyleName>level1_style</StyleName>
+        <Datasource>
+            <Parameter name="dbname">geo</Parameter>
+            <Parameter name="estimate_extent">0</Parameter>
+            <Parameter name="extent">-2327043.37882,-1291465.9268,2120944.96745,1278301.03488</Parameter>
+            <Parameter name="geometry_field">location</Parameter>
+            <Parameter name="srid">0</Parameter>
+            <Parameter name="table">(SELECT * FROM &quot;r_baseline&quot;.&quot;run12brfn_locations&quot; WHERE GeometryType(&quot;location&quot;) IN ('POINT','MULTIPOINT') and production between 0 and 50) as &quot;run12brfn_locations&quot;</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="user"/>
+        </Datasource>
+    </Layer>
+</Map>

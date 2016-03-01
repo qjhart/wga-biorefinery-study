@@ -1,0 +1,14 @@
+                                        Table "greedy.test"
+     Column      |          Type           |                       Modifiers                        
+-----------------+-------------------------+--------------------------------------------------------
+ test_id         | integer                 | not null default nextval('test_test_id_seq'::regclass)
+ name            | character varying(32)   | 
+ tech            | character varying(8)    | 
+ skip            | double precision        | 
+ scenarios       | character varying(32)[] | 
+ feedstock_types | character varying(32)[] | 
+Indexes:
+    "test_name_key" UNIQUE, btree (name)
+Foreign-key constraints:
+    "test_tech_fkey" FOREIGN KEY (tech) REFERENCES technology(tech)
+

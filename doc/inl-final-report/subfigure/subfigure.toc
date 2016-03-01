@@ -1,0 +1,41 @@
+\contentsline {section}{\numberline {1}Introduction}{4}
+\contentsline {section}{\numberline {2}The User Interface}{5}
+\contentsline {subsection}{\numberline {2.1}Format Options}{7}
+\contentsline {subsection}{\numberline {2.2}Font Size and Style Options}{7}
+\contentsline {subsection}{\numberline {2.3}Caption Position Options}{7}
+\contentsline {subsection}{\numberline {2.4}Recent Changes and Backward Compatibility}{11}
+\contentsline {subsection}{\numberline {2.5}Frequently Asked Questions}{13}
+\contentsline {section}{\numberline {3}Three Examples}{14}
+\contentsline {subsection}{\numberline {3.1}A Simple Example}{15}
+\contentsline {subsection}{\numberline {3.2}A More Advanced Example}{16}
+\contentsline {subsection}{\numberline {3.3}An Example Without Subcaption Text}{16}
+\contentsline {section}{\numberline {4}Customization}{18}
+\contentsline {subsection}{\numberline {4.1}Changing the Layout}{19}
+\contentsline {subsection}{\numberline {4.2}Adjusting the Subcaption}{19}
+\contentsline {subsection}{\numberline {4.3}Adjusting the Subfigure and Subtable Counters}{21}
+\contentsline {subsection}{\numberline {4.4}Modifying the List-of-Figures and List-of-Tables}{22}
+\contentsline {subsection}{\numberline {4.5}Aligning Captions Above the Figure}{23}
+\contentsline {subsection}{\numberline {4.6}Adding Subfloats to New Environments}{24}
+\contentsline {subsection}{\numberline {4.7}Interaction with Other Parts of \LaTeX }{25}
+\contentsline {subsubsection}{\numberline {4.7.1}T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m 's ``Mouth''}{25}
+\contentsline {subsubsection}{\numberline {4.7.2}The Float Environment}{25}
+\contentsline {subsubsection}{\numberline {4.7.3}Interaction with Other Packages}{26}
+\contentsline {paragraph}{\textsf {caption}}{26}
+\contentsline {paragraph}{\textsf {caption2}}{26}
+\contentsline {paragraph}{\textsf {ccaption}}{27}
+\contentsline {paragraph}{\textsf {tocloft}}{27}
+\contentsline {paragraph}{\textsf {hyperref}}{27}
+\contentsline {paragraph}{\textsf {captcont}}{27}
+\contentsline {subsubsection}{\numberline {4.7.4}Creating a \texttt {subfigure} Environment}{28}
+\contentsline {section}{\numberline {5}The Code}{30}
+\contentsline {subsection}{\numberline {5.1}Identification}{30}
+\contentsline {subsection}{\numberline {5.2}Check for Nasty Classes}{30}
+\contentsline {subsection}{\numberline {5.3}Check for the \textsf {hyperref} Package}{30}
+\contentsline {subsection}{\numberline {5.4}Initialization and Shared Constants}{31}
+\contentsline {subsection}{\numberline {5.5}Subfigure Constants}{33}
+\contentsline {subsection}{\numberline {5.6}Subtable Constants}{34}
+\contentsline {subsection}{\numberline {5.7}Declaration of Options}{35}
+\contentsline {subsection}{\numberline {5.8}Execution of Options}{38}
+\contentsline {subsection}{\numberline {5.9}The Subfigure and Subtable Commands}{38}
+\contentsline {subsection}{\numberline {5.10}Patches to the Standard Environment}{43}
+\contentsline {section}{\numberline {6}Acknowledgements}{46}

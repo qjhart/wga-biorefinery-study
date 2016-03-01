@@ -1,0 +1,31 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Here are two figures side-by-side.}}{4}
+\contentsline {figure}{\numberline {2}{\ignorespaces First.}}{5}
+\contentsline {figure}{\numberline {3}{\ignorespaces Second.}}{5}
+\contentsline {figure} {\hbox to\@tempdima {4\hbox {}--17\hbox {}\hfil }{\ignorespaces \textsf {Subfigure}\ format options.}}{8\hbox {}--9\hbox {}}
+\contentsline {figure}{\numberline {18}{\ignorespaces \textsf {Subfigure} font size options.}}{10}
+\contentsline {figure}{\numberline {19}{\ignorespaces \textsf {Subfigure} font style options.}}{10}
+\contentsline {figure}{\numberline {20}{\ignorespaces Subcaption position option [\textsf {FIGBOTCAP}].}}{11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {First caption.}}}{11}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Second long, long, long, long, long, long, caption.}}}{11}
+\contentsline {figure}{\numberline {21}{\ignorespaces Subcaption position option: [\textsf {FIGTOPCAP}].}}{11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {First caption.}}}{11}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Second long, long, long, long, long, long caption.}}}{11}
+\contentsline {figure}{\numberline {22}{\ignorespaces Three subfigures.}}{15}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {First.}}}{15}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Second figure.}}}{15}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Third.}}}{15}
+\contentsline {figure}{\numberline {23}{\ignorespaces Two subfigures.}}{17}
+\contentsline {subfigure}{\numberline {23.1}{\ignorespaces {First.}}}{17}
+\contentsline {subfigure}{\numberline {23.2}{\ignorespaces {Second.}}}{17}
+\contentsline {figure}{\numberline {24}{\ignorespaces A set of four subfigures.}}{17}
+\contentsline {figure}{\numberline {25}{\ignorespaces Subfigure and subtable layout.}}{20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Standard layout {[FIGBOTCAP] or [TABBOTCAP]}.}}}{20}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Standard layout {[FIGBOTCAP] or [TABBOTCAP]} with no caption present.}}}{20}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Reversed layout {[FIGTOPCAP] or [TABTOPCAP]}.}}}{20}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Reversed layout {[FIGTOPCAP] or [TABTOPCAP]} with no caption present.}}}{20}
+\contentsline {figure}{\numberline {26}{\ignorespaces Caption position option: [\textsf {figtopcap}] with changing settings of \cs {\char 115\relax ubfiguretopcap}.}}{23}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {First caption.}}}{23}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Second long, long, long, long, long, long, long, long caption.}}}{23}
+\contentsline {figure}{\numberline {27}{\ignorespaces Subfigures\nobreakspace {}(a)\hbox {} and (b)\hbox {} show examples of using verbatim text in a subfigure.}}{28}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\relax First subcaption.}}}{28}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\relax Second subcaption.}}}{28}

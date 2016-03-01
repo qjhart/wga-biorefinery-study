@@ -1,0 +1,3 @@
+create table tmp.pfarms_in_production as select pfarm_gid,year,name,fips,arable_acres,arable_irrcapcl,typical_irr_yield,actual_yield,yldunits,pf.boundary from pfarm_county pf join m_pfarm_actual_crop_production using(pfarm_gid,county_gid) join network.county using (county_gid) join pfarm.crop using (crop_id) where year=2007;
+
+1      pfarm.m_			      select * from foo;

@@ -1,0 +1,28 @@
+Column,Code,Description
+feedstck,LOGR,Logging residue
+feedstck,LOGO,Other removal residue
+feedstck,LOGP,Conventional wood
+feedstck,LOGT,"Treatment thinnings, timberland"
+feedstck,LOGTOF,"Treatment thinnings, other forest lands"
+feedstck,LOGRLOGT,Integrated operations
+feedstck,MRESUU,"Mill residue, unused"
+feedstck,UWDWCD,"Urban wood waste, construction and demolition"
+feedstck,UWDWMS,"Urban wood waste, municipal solid waste"
+feedstck,Stover,Corn stover
+feedstck,Straw,"Wheat, oat and barley straw and sorghum stubble"
+feedstck,Perennial grass,Perennial grasses
+feedstck,Sorghum (HY),"Sorghum, high yield"
+feedstck,Woody crops,Coppice and non-coppice woody crops
+basis,Fed+,Federal lands included
+basis,Fed-,Federal lands excluded
+basis,,No basis specified
+produnit,dt,Dry tons
+scenario,BLY+EC1_BLT_40,"Baseline yield with 1% increase in energy crops and baseline tillage practices, $40/dt"
+scenario,BLY+EC1_BLT_45,"Baseline yield with 1% increase in energy crops and baseline tillage practices, $45/dt"
+scenario,BLY+EC1_BLT_50,"Baseline yield with 1% increase in energy crops and baseline tillage practices, $50/dt"
+scenario,BLY+EC1_BLT_55,"Baseline yield with 1% increase in energy crops and baseline tillage practices, $55/dt"
+scenario,BLY+EC1_BLT_60,"Baseline yield with 1% increase in energy crops and baseline tillage practices, $60/dt"
+scenario,BE,"Pulpwood from main stem of nonsawtimber trees from additional thin from below harvesting operations + Pulpwood from main stem of nonsawtimber trees from current harvesting operations (shift in demand from current users (pulp panels) to bioenergy users) + Tops, branches and small trees."
+scenario,B2,"Cumulative supply for tops/ branches and chip trees (no limitation to stop when sawlog harvest consumption is met).  West has chip trees <7in.dbh, north and south have chip trees <5 in dbh. Supply in each state is limited so treatments will not supply more than the current level of sawlog harvest. Stumpage prices are added for biomass taken from non-federal land."
+scenario,R70_T30,Integrated operations with 70% residues and 30% thinnings.
+scenario,,No scenario specified

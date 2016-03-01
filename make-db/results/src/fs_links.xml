@@ -1,0 +1,95 @@
+<?xml version="1.0" ?><Map bgcolor="rgb(255,255,255)" srs="+proj=lcc +lat_1=33 +lat_2=45 +lat_0=39 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +datum=NAD83 +units=m +no_defs">
+    <Style name="level1_style">
+        <Rule>
+            <LineSymbolizer>
+                <CssParameter name="stroke">rgb(85,170,0)</CssParameter>
+                <CssParameter name="stroke-width">0.96</CssParameter>
+                <CssParameter name="stroke-linejoin">bevel</CssParameter>
+                <CssParameter name="stroke-linecap">square</CssParameter>
+            </LineSymbolizer>
+        </Rule>
+    </Style>
+    <Style name="level2_style">
+        <Rule>
+            <LineSymbolizer>
+                <CssParameter name="stroke">rgb(85,170,0)</CssParameter>
+                <CssParameter name="stroke-width">1.36</CssParameter>
+                <CssParameter name="stroke-linejoin">bevel</CssParameter>
+                <CssParameter name="stroke-linecap">square</CssParameter>
+            </LineSymbolizer>
+        </Rule>
+    </Style>
+    <Style name="level3_style">
+        <Rule>
+            <LineSymbolizer>
+                <CssParameter name="stroke">rgb(85,170,0)</CssParameter>
+                <CssParameter name="stroke-width">1.76</CssParameter>
+                <CssParameter name="stroke-linejoin">bevel</CssParameter>
+                <CssParameter name="stroke-linecap">square</CssParameter>
+            </LineSymbolizer>
+        </Rule>
+    </Style>
+    <Style name="level4_style">
+        <Rule>
+            <LineSymbolizer>
+                <CssParameter name="stroke">rgb(85,170,0)</CssParameter>
+                <CssParameter name="stroke-width">2.16</CssParameter>
+                <CssParameter name="stroke-linejoin">bevel</CssParameter>
+                <CssParameter name="stroke-linecap">square</CssParameter>
+            </LineSymbolizer>
+        </Rule>
+    </Style>
+    <Layer name="level4" srs="+proj=lcc +lat_1=33 +lat_2=45 +lat_0=39 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +datum=NAD83 +units=m +no_defs">
+        <StyleName>level4_style</StyleName>
+        <Datasource>
+            <Parameter name="dbname">geo</Parameter>
+            <Parameter name="estimate_extent">0</Parameter>
+            <Parameter name="extent">689474.31924,318354.39205,704579.894369,346565.206265</Parameter>
+            <Parameter name="geometry_field">route</Parameter>
+            <Parameter name="srid">0</Parameter>
+            <Parameter name="table">(SELECT * FROM &quot;r_baseline&quot;.&quot;run12fs_links&quot; WHERE GeometryType(&quot;route&quot;) IN ('LINESTRING','MULTILINESTRING') and quant_tons between 1000000 and 2000000) as &quot;run12fs_links&quot;</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="user"/>
+        </Datasource>
+    </Layer>
+    <Layer name="level3" srs="+proj=lcc +lat_1=33 +lat_2=45 +lat_0=39 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +datum=NAD83 +units=m +no_defs">
+        <StyleName>level3_style</StyleName>
+        <Datasource>
+            <Parameter name="dbname">geo</Parameter>
+            <Parameter name="estimate_extent">0</Parameter>
+            <Parameter name="extent">-2089111.38041,-1023224.28809,1831041.4408,411992.889666</Parameter>
+            <Parameter name="geometry_field">route</Parameter>
+            <Parameter name="srid">0</Parameter>
+            <Parameter name="table">(SELECT * FROM &quot;r_baseline&quot;.&quot;run12fs_links&quot; WHERE GeometryType(&quot;route&quot;) IN ('LINESTRING','MULTILINESTRING') and quant_tons between 600000 and 1000000
+) as &quot;run12fs_links&quot;</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="user"/>
+        </Datasource>
+    </Layer>
+    <Layer name="level2" srs="+proj=lcc +lat_1=33 +lat_2=45 +lat_0=39 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +datum=NAD83 +units=m +no_defs">
+        <StyleName>level2_style</StyleName>
+        <Datasource>
+            <Parameter name="dbname">geo</Parameter>
+            <Parameter name="estimate_extent">0</Parameter>
+            <Parameter name="extent">-2327043.37882,-1455743.88753,2198803.94826,1368281.58832</Parameter>
+            <Parameter name="geometry_field">route</Parameter>
+            <Parameter name="srid">0</Parameter>
+            <Parameter name="table">(SELECT * FROM &quot;r_baseline&quot;.&quot;run12fs_links&quot; WHERE GeometryType(&quot;route&quot;) IN ('LINESTRING','MULTILINESTRING') and quant_tons between 20000 and 600000) as &quot;run12fs_links&quot;</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="user"/>
+        </Datasource>
+    </Layer>
+    <Layer name="level1" srs="+proj=lcc +lat_1=33 +lat_2=45 +lat_0=39 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +datum=NAD83 +units=m +no_defs">
+        <StyleName>level1_style</StyleName>
+        <Datasource>
+            <Parameter name="dbname">geo</Parameter>
+            <Parameter name="estimate_extent">0</Parameter>
+            <Parameter name="extent">-2304291.58994,-1455743.88753,2198803.94826,1368281.58832</Parameter>
+            <Parameter name="geometry_field">route</Parameter>
+            <Parameter name="srid">0</Parameter>
+            <Parameter name="table">(SELECT * FROM &quot;r_baseline&quot;.&quot;run12fs_links&quot; WHERE GeometryType(&quot;route&quot;) IN ('LINESTRING','MULTILINESTRING') and quant_tons between 0 and 200000 ) as &quot;run12fs_links&quot;</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="user"/>
+        </Datasource>
+    </Layer>
+</Map>

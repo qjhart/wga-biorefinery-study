@@ -1,0 +1,4 @@
+DROP SCHEMA IF EXISTS ssurgo CASCADE;
+CREATE SCHEMA ssurgo;
+COMMENT ON SCHEMA ssurgo IS 'Soil data';
+

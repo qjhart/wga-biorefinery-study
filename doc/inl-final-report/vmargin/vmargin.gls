@@ -1,0 +1,43 @@
+
+ \begin{theglossary} 
+
+    \makeatletter\scan@allowedfalse
+
+  \item 1.0\efill 
+ \subitem General:\ Created out of Vpage.sty V2.2, 18 June 1993\pfill 1
+
+  \indexspace
+
+  \item V1.7\efill 
+ \subitem General:\ Changed file header.\pfill 1
+  \item V1.72\efill 
+ \subitem General:\ Fixed bug in \cs  {setpapersize\{custom\}}.\pfill 1
+  \item V1.8\efill 
+ \subitem General:\ Commented \cs  {chk@dimen}; reduced load on T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m 'sparameter stack (changed \cs  {chk@dimen}); put a conditional around references to \cs  {footheight}.\pfill 
+		1
+  \item V1.9\efill 
+ \subitem General:\ Corrected spelling in comment.\pfill 1
+  \item V2.0\efill 
+ \subitem General:\ Added support for \LaTeX  2e\ \cs  {paperwidth}, \cs  {paperheight}.\pfill 
+		1
+  \item V2.12\efill 
+ \subitem General:\ Fixed documentation for \cs  {setmargrb}.\pfill 1
+  \item V2.13\efill 
+ \subitem General:\ Fixed comment for \cs  {setmarginsrb}.\pfill 1
+  \item V2.2\efill 
+ \subitem General:\ Released under LPPL. Changed references to Vmargin to vmargin. \LaTeX  2e\ package options introduced.\pfill 
+		1
+  \item v2.2b\efill 
+ \subitem General:\ Changed into docstrip format. Improved documentation.\pfill 1
+  \item v2.3\efill 
+ \subitem General:\ Now setting page size for pdflatex.\pfill 1
+  \item v2.3b\efill 
+ \subitem General:\ screen output of version info.\pfill 1
+  \item v2.4\efill 
+ \subitem General:\ minor changes, mostly cosmetic\pfill 1
+  \item v2.4.2\efill 
+ \subitem General:\ documentation only\pfill 1
+  \item v2.5\efill 
+ \subitem General:\ \cs  {margin@offset} now uses \hbox {-1truein} instead of -1in\pfill 1
+
+ \end{theglossary}

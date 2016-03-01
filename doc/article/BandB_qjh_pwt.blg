@@ -1,0 +1,45 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: BandB_qjh_pwt.aux
+The style file: elsarticle-harv.bst
+Database file #1: BandB_qjh_pwt.bib.bib
+You've used 5 entries,
+            2821 wiz_defined-function locations,
+            663 strings with 5382 characters,
+and the built_in function-call counts, 2069 in all, are:
+= -- 205
+> -- 108
+< -- 4
++ -- 41
+- -- 36
+* -- 159
+:= -- 402
+add.period$ -- 14
+call.type$ -- 5
+change.case$ -- 39
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 79
+empty$ -- 132
+format.name$ -- 47
+if$ -- 401
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 2
+newline$ -- 22
+num.names$ -- 20
+pop$ -- 31
+preamble$ -- 1
+purify$ -- 32
+quote$ -- 0
+skip$ -- 68
+stack$ -- 0
+substring$ -- 82
+swap$ -- 8
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 45
+warning$ -- 0
+while$ -- 16
+width$ -- 0
+write$ -- 58

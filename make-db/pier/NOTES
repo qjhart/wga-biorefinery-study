@@ -1,0 +1,114 @@
+VI. SPECIAL CONDITIONS, IRRIGATION TYPE, AND WATER SOURCE
+When any of the following special conditions, type of irrigation, or source of water is used, a (-)
+should precede them. When more than one is used they should be used in the order stated above.
+1. SPECIAL CONDITIONS
+(only one can be used per parcel)
+A - ABANDONED ORCHARDS AND VINEYARDS
+Trees or vines must be in such a condition that renewal of cultural practices would restore
+economic production. Indicated by "A" following crop symbol.
+Example: D1-A indicates an apple orchard previously irrigated but now abandoned.
+B - BURNED OVER AREAS
+Indicated by "B". The type and density of natural cover destroyed by fire is obtained by
+examination of aerial photo.
+Example: NV7-B indicates oak grass land recently burned over.
+F - FALLOW LANDS
+Land not cropped during the current crop season, but cropped during the previous crop
+season.
+(1) If no crop residue is apparent or identifiable then the "F" symbol will follow the
+agricultural class symbol for the crop most representative of those grown in the area.
+Example: T-F indicates fallow land within a truck crop area (with facilities for
+irrigation).
+(2) If the crop residue is apparent and identifiable but is not from the current crop season
+covered by the survey then the field is considered fallow and mapped as the class of the
+crop residue.
+Example: Surveyor found an old sugar beet residue not from current season.
+Land would be mapped F-F.
+(3) If the crop residue is identifiable as that of a crop which was grown during the survey
+period, then map the field as though crop existed.
+Example: Surveyor found carrot residue from current growing season. Land
+would be mapped T6.
+
+K - FREEWAYS
+The area within the freeway right of way.
+Examples: UV-K indicates urban vacant, unsegregated, with a freeway special condition
+(all areas within the freeway right of way).
+UV4-K indicates the urban vacant paved areas with a freeway special
+condition (the paved portion within the freeway right of way.)
+UL3-K indicates irrigated urban landscape with a freeway special condition
+(irrigated landscape portion within the freeway right of way).
+M - MILITARY AREAS
+(Use only with the URBAN classes)
+Indicates land owned or controlled by the military and is used following the land use symbol.
+Example: UR3-M indicates multiple family dwellings within a military area.
+R - RECREATIONAL
+To be used with urban residential, commercial, and vacant (R.V. parks and camp sites) within
+primarily a seasonal recreational area.
+S - SEED CROP
+Indicates any crop grown for seed.
+Example: P1-S indicates irrigated alfalfa seed crop.
+T - TILLED LANDS
+Land prepared for immediate planting, or just newly planted, including the appearance of seed
+lines or unidentifiable tiny seedlings.
+Example: T-T indicates tilled land (either prepared for planting or just planted) in a
+predominately truck crop area.
+X - PARTIALLY IRRIGATED CROPS
+Crops irrigated for only part of their normal irrigation season.
+Example: P3-X indicates partially irrigated mixed pasture.
+Y - YOUNG NON-BEARING ORCHARDS AND VINEYARDS
+Example: C3-Y indicates young non-bearing irrigated oranges.
+Z - RECLAMATION
+Land being leached for the removal of harmful salts. This symbol will be used following either
+the Idle symbol or symbols of crops grown as a step in the reclamation process.
+Example: I2-Z indicates new lands being leached in preparation for crop production.
+
+2. TYPE OF IRRIGATION SYSTEM
+C - Center Pivot Sprinkler
+L - Linear Move Sprinkler
+R - Side Roll Sprinkler
+H - Hand Move Sprinkler
+P - Permanent Sprinkler
+F - Furrow Irrigation
+B - Border Strip Irrigation
+N - Basin Irrigation
+W - Wild Flooding
+S - Subirrigation
+D - Surface Drip Irrigation
+A - Buried Drip Irrigation
+M - Micro Sprinkler
+E - LEPA (Low Energy Precision Application)
+U - Unknown or not mapped
+As part of the map symbols these irrigation type letters required a circle around them so that
+they are not confused with the special condition letters.
+Example: P1- B indicates border strip irrigated alfalfa.
+3. SOURCE OF IRRIGATION WATER
+Water Source Code
+Surface water 1
+Mixed surface & ground water 2
+Ground water 3
+Unknown source 4
+Reclaimed 5
+Example: P3- B 1 indicates border strip irrigated pasture with surface water as the
+water source.
+
+VIII. MULTIPLE LAND USE
+INTERCROPPING
+Used with orchards or vineyards when intercropped with some other crop class. Indicated by
+a fractional symbol, with the orchard or vineyard symbol appearing in the numerator.
+Example: D12-Y/F10 indicates young almonds intercropped with dry beans.
+DOUBLE CROPS
+Used when two consecutive crops are grown in the survey season. The first crop is indicated
+by enclosed parenthesis.
+Example: (G)F6 indicates irrigated grain followed by field corn.
+TRIPLE CROPS
+Used when three consecutive crops are grown in the survey season. The first and second
+crops are indicated by enclosed parenthesis.
+Example: (T8)(T23)T8 indicates irrigated lettuce followed by cabbage followed by
+lettuce.
+MIXED LAND USE
+Used when two to three land uses are present in one area but, because of the large degree of
+intermixing, cannot be delineated separately. Indicated by percentages following land use symbols. No
+more than three different land uses may be used in describing the area. Percentages are in increments
+of 10.
+Example: D5 - 40% indicates irrigated peaches 40%
+NV - 20% indicates native vegetation 20%
+UR - 40% indicates urban residential 40%

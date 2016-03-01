@@ -1,0 +1,16 @@
+\glossaryentry{v2.5> =General:>\cs  {margin@offset} now uses \hbox {-1truein} instead of -1in}{1}
+\glossaryentry{v2.4.2> =General:>documentation only}{1}
+\glossaryentry{v2.4> =General:>minor changes, mostly cosmetic}{1}
+\glossaryentry{v2.3b> =General:>screen output of version info.}{1}
+\glossaryentry{v2.3> =General:>Now setting page size for pdflatex.}{1}
+\glossaryentry{v2.2b> =General:>Changed into docstrip format. Improved documentation.}{1}
+\glossaryentry{V2.2> =General:>Released under LPPL. Changed references to Vmargin to vmargin. \LaTeX  2e\ package options introduced.}{1}
+\glossaryentry{V2.13> =General:>Fixed comment for \cs  {setmarginsrb}.}{1}
+\glossaryentry{V2.12> =General:>Fixed documentation for \cs  {setmargrb}.}{1}
+\glossaryentry{V2.1> =General:>\cs  {@defmetricpaper} now defines \cs  {w}, \cs  {h}, \cs  {s} locally. Thanks to \texttt  {branderhorst@fgg.eur.nl}!}{1}
+\glossaryentry{V2.0> =General:>Added support for \LaTeX  2e\ \cs  {paperwidth}, \cs  {paperheight}.}{1}
+\glossaryentry{V1.9> =General:>Corrected spelling in comment.}{1}
+\glossaryentry{V1.8> =General:>Commented \cs  {chk@dimen}; reduced load on T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m 'sparameter stack (changed \cs  {chk@dimen}); put a conditional around references to \cs  {footheight}.}{1}
+\glossaryentry{V1.72> =General:>Fixed bug in \cs  {setpapersize\{custom\}}.}{1}
+\glossaryentry{V1.7> =General:>Changed file header.}{1}
+\glossaryentry{1.0> =General:>Created out of Vpage.sty V2.2, 18 June 1993}{1}

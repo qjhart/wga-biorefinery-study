@@ -1,0 +1,176 @@
+\set ON_ERROR_STOP 1
+BEGIN;
+
+set search_path=nelson,public;
+
+create temp table tt (state char(20),County varchar(255),StFIPS char(2),CoFIPS char(3),Type varchar(25),	mt0 float, mt5 float, mt10 float, mt12_5 float, mt15 float, mt17_5 float, mt20 float, mt22_5 float, mt25 float, mt27_5 float, mt30 float, mt32_5 float, mt35 float, mt37_5 float, mt40 float, mt42_5 float, mt45 float, mt47_5 float, mt50 float, mt52_5 float, mt55 float, mt57_5 float, mt60 float, mt62_5 float, mt65 float, mt67_5 float, mt70 float, mt72_5 float, mt75 float, mt77_5 float, mt80 float, mt82_5 float, mt85 float, mt87_5 float, mt90 float, mt92_5 float, mt95 float, mt97_5 float, mt100 float);
+
+copy tt (State,County,StFIPS,CoFIPS,Type,mt0,mt5,mt10,mt12_5,mt15,mt17_5,mt20,mt22_5,mt25,mt27_5,mt30,mt32_5,mt35,mt37_5,mt40,mt42_5,mt45,mt47_5,mt50,mt52_5,mt55,mt57_5,mt60,mt62_5,mt65,mt67_5,mt70,mt72_5,mt75,mt77_5,mt80,mt82_5,mt85,mt87_5,mt90,mt92_5,mt95,mt97_5,mt100) FROM 'nelson.ag_cellulosic_co.csv' CSV HEADER;
+
+\echo SD NE
+
+delete from tt where State='SD' and Type in ('oats','rye','barley');
+delete from tt where State='NE' and Type in ('oats');
+copy tt (State,County,StFIPS,CoFIPS,Type,mt0,mt5,mt10,mt12_5,mt15,mt17_5,mt20,mt22_5,mt25,mt27_5,mt30,mt32_5,mt35,mt37_5,mt40,mt42_5,mt45,mt47_5,mt50,mt52_5,mt55,mt57_5,mt60,mt62_5,mt65,mt67_5,mt70,mt72_5,mt75,mt77_5,mt80,mt82_5,mt85,mt87_5,mt90,mt92_5,mt95,mt97_5,mt100) FROM 'nelson.sd_ne_new.csv' CSV HEADER;
+
+update tt set mt5=greatest(0,mt5-mt0),mt10=greatest(0,mt10-mt5),mt12_5=greatest(0,mt12_5-mt10),mt15=greatest(0,mt15-mt12_5),mt17_5=greatest(0,mt17_5-mt15),mt20=greatest(0,mt20-mt17_5),mt22_5=greatest(0,mt22_5-mt20),mt25=greatest(0,mt25-mt22_5),mt27_5=greatest(0,mt27_5-mt25),mt30=greatest(0,mt30-mt27_5),mt32_5=greatest(0,mt32_5-mt30),mt35=greatest(0,mt35-mt32_5),mt37_5=greatest(0,mt37_5-mt35),mt40=greatest(0,mt40-mt37_5),mt42_5=greatest(0,mt42_5-mt40),mt45=greatest(0,mt45-mt42_5),mt47_5=greatest(0,mt47_5-mt45),mt50=greatest(0,mt50-mt47_5),mt52_5=greatest(0,mt52_5-mt50),mt55=greatest(0,mt55-mt52_5),mt57_5=greatest(0,mt57_5-mt55),mt60=greatest(0,mt60-mt57_5),mt62_5=greatest(0,mt62_5-mt60),mt65=greatest(0,mt65-mt62_5),mt67_5=greatest(0,mt67_5-mt65),mt70=greatest(0,mt70-mt67_5),mt72_5=greatest(0,mt72_5-mt70),mt75=greatest(0,mt75-mt72_5),mt77_5=greatest(0,mt77_5-mt75),mt80=greatest(0,mt80-mt77_5),mt82_5=greatest(0,mt82_5-mt80),mt85=greatest(0,mt85-mt82_5),mt87_5=greatest(0,mt87_5-mt85),mt90=greatest(0,mt90-mt87_5),mt92_5=greatest(0,mt92_5-mt90),mt95=greatest(0,mt95-mt92_5),mt97_5=greatest(0,mt97_5-mt95),mt100=greatest(0,mt100-mt97_5) where State='SD' and Type in ('oats','rye','barley');
+
+update tt set mt5=greatest(0,mt5-mt0),mt10=greatest(0,mt10-mt5),mt12_5=greatest(0,mt12_5-mt10),mt15=greatest(0,mt15-mt12_5),mt17_5=greatest(0,mt17_5-mt15),mt20=greatest(0,mt20-mt17_5),mt22_5=greatest(0,mt22_5-mt20),mt25=greatest(0,mt25-mt22_5),mt27_5=greatest(0,mt27_5-mt25),mt30=greatest(0,mt30-mt27_5),mt32_5=greatest(0,mt32_5-mt30),mt35=greatest(0,mt35-mt32_5),mt37_5=greatest(0,mt37_5-mt35),mt40=greatest(0,mt40-mt37_5),mt42_5=greatest(0,mt42_5-mt40),mt45=greatest(0,mt45-mt42_5),mt47_5=greatest(0,mt47_5-mt45),mt50=greatest(0,mt50-mt47_5),mt52_5=greatest(0,mt52_5-mt50),mt55=greatest(0,mt55-mt52_5),mt57_5=greatest(0,mt57_5-mt55),mt60=greatest(0,mt60-mt57_5),mt62_5=greatest(0,mt62_5-mt60),mt65=greatest(0,mt65-mt62_5),mt67_5=greatest(0,mt67_5-mt65),mt70=greatest(0,mt70-mt67_5),mt72_5=greatest(0,mt72_5-mt70),mt75=greatest(0,mt75-mt72_5),mt77_5=greatest(0,mt77_5-mt75),mt80=greatest(0,mt80-mt77_5),mt82_5=greatest(0,mt82_5-mt80),mt85=greatest(0,mt85-mt82_5),mt87_5=greatest(0,mt87_5-mt85),mt90=greatest(0,mt90-mt87_5),mt92_5=greatest(0,mt92_5-mt90),mt95=greatest(0,mt95-mt92_5),mt97_5=greatest(0,mt97_5-mt95),mt100=greatest(0,mt100-mt97_5) where State='NE' and Type in ('oats');
+
+\echo OK
+
+delete from tt where State='OK' and Type in ('HEC','OVW','cornstover','oats','rye','swheatstraw');
+
+copy tt (State,County,StFIPS,CoFIPS,Type,mt0,mt5,mt10,mt12_5,mt15,mt17_5,mt20,mt22_5,mt25,mt27_5,mt30,mt32_5,mt35,mt37_5,mt40,mt42_5,mt45,mt47_5,mt50,mt52_5,mt55,mt57_5,mt60,mt62_5,mt65,mt67_5,mt70,mt72_5,mt75,mt77_5,mt80,mt82_5,mt85,mt87_5,mt90,mt92_5,mt95,mt97_5,mt100) FROM 'nelson.ok_new.csv' CSV HEADER;
+
+update tt set mt5=greatest(0,mt5-mt0),mt10=greatest(0,mt10-mt5),mt12_5=greatest(0,mt12_5-mt10),mt15=greatest(0,mt15-mt12_5),mt17_5=greatest(0,mt17_5-mt15),mt20=greatest(0,mt20-mt17_5),mt22_5=greatest(0,mt22_5-mt20),mt25=greatest(0,mt25-mt22_5),mt27_5=greatest(0,mt27_5-mt25),mt30=greatest(0,mt30-mt27_5),mt32_5=greatest(0,mt32_5-mt30),mt35=greatest(0,mt35-mt32_5),mt37_5=greatest(0,mt37_5-mt35),mt40=greatest(0,mt40-mt37_5),mt42_5=greatest(0,mt42_5-mt40),mt45=greatest(0,mt45-mt42_5),mt47_5=greatest(0,mt47_5-mt45),mt50=greatest(0,mt50-mt47_5),mt52_5=greatest(0,mt52_5-mt50),mt55=greatest(0,mt55-mt52_5),mt57_5=greatest(0,mt57_5-mt55),mt60=greatest(0,mt60-mt57_5),mt62_5=greatest(0,mt62_5-mt60),mt65=greatest(0,mt65-mt62_5),mt67_5=greatest(0,mt67_5-mt65),mt70=greatest(0,mt70-mt67_5),mt72_5=greatest(0,mt72_5-mt70),mt75=greatest(0,mt75-mt72_5),mt77_5=greatest(0,mt77_5-mt75),mt80=greatest(0,mt80-mt77_5),mt82_5=greatest(0,mt82_5-mt80),mt85=greatest(0,mt85-mt82_5),mt87_5=greatest(0,mt87_5-mt85),mt90=greatest(0,mt90-mt87_5),mt92_5=greatest(0,mt92_5-mt90),mt95=greatest(0,mt95-mt92_5),mt97_5=greatest(0,mt97_5-mt95),mt100=greatest(0,mt100-mt97_5) where upper(State)='OK' and Type in ('HEC','OVW','corngrain','oats','rye','swheatstraw');
+
+-- copy tt (State,County,StFIPS,CoFIPS,Type,mt0,mt5,mt10,mt12_5,mt15,mt17_5,mt20,mt22_5,mt25,mt27_5,mt30,mt32_5,mt35,mt37_5,mt40,mt42_5,mt45,mt47_5,mt50,mt52_5,mt55,mt57_5,mt60,mt62_5,mt65,mt67_5,mt70,mt72_5,mt75,mt77_5,mt80,mt82_5,mt85,mt87_5,mt90,mt92_5,mt95,mt97_5,mt100) FROM 'nelson.HEC_high.csv' CSV HEADER;
+
+update tt set stfips=s.state_fips 
+from (select distinct state_fips,lower(state) as name from network.state) as s 
+where lower(trim(both ' ' from state))=s.name;
+
+update tt f set stfips=c.state_fips from (select distinct state_fips,state from network.county) as c where lower(trim(both ' ' from f.state))=lower(c.state);
+
+update tt set county='DeBaca' where trim(both ' ' from county)='De Baca';
+
+update tt f set cofips=substr(c.fips,3,3) from network.county c where f.stfips=substr(c.fips,1,2) and trim(both ' ' from f.county)||' County'=c.name;
+
+update tt set cofips='00'||cofips where length(cofips)=1;
+update tt set cofips='0'||cofips where length(cofips)=2;
+update tt set cofips='111' where stfips='30' 
+and county='Yellowstone National Park';
+
+\echo wga_ag
+
+drop table if exists wga_ag cascade;
+create table wga_ag (
+qid varchar(8),
+type varchar(24),
+price float,
+marginal_addition float
+);
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,0,f.mt0 from tt f where mt0 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,5,f.mt5 from tt f where mt5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,10,f.mt10 from tt f where mt10 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,12.5,f.mt12_5 from tt f where mt12_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,15,f.mt15 from tt f where mt15 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,17.5,f.mt17_5 from tt f where mt17_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,20,f.mt20 from tt f where mt20 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,22_5,f.mt22_5 from tt f where mt22_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,25,f.mt25 from tt f where mt25 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,27.5,f.mt27_5 from tt f where mt27_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,30,f.mt30 from tt f where mt30 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,32.5,f.mt32_5 from tt f where mt32_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,35,f.mt35 from tt f where mt35 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,37.5,f.mt37_5 from tt f where mt37_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,40,f.mt40 from tt f where mt40 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,42.5,f.mt42_5 from tt f where mt42_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,45,f.mt45 from tt f where mt45 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,47.5,f.mt47_5 from tt f where mt47_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,50,f.mt50 from tt f where mt50 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,52.5,f.mt52_5 from tt f where mt52_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,55,f.mt55 from tt f where mt55 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,57.5,f.mt57_5 from tt f where mt57_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,60,f.mt60 from tt f where mt60 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,62.5,f.mt62_5 from tt f where mt62_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,65,f.mt65 from tt f where mt65 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,67.5,f.mt67_5 from tt f where mt67_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,70,f.mt70 from tt f where mt70 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,72.5,f.mt72_5 from tt f where mt72_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,75,f.mt75 from tt f where mt75 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,77.5,f.mt77_5 from tt f where mt77_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,80,f.mt80 from tt f where mt80 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,82.5,f.mt82_5 from tt f where mt82_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,85,f.mt85 from tt f where mt85 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,87.5,f.mt87_5 from tt f where mt87_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,90,f.mt90 from tt f where mt90 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,92.5,f.mt92_5 from tt f where mt92_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,95,f.mt95 from tt f where mt95 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,97.5,f.mt97_5 from tt f where mt97_5 != 0;
+
+insert into wga_ag (qid,type,price,marginal_addition) 
+select 'S'||f.stfips||f.cofips,f.type,100,f.mt100 from tt f where mt100 != 0;
+
+\echo The following qids are not good
+select distinct qid from wga_ag left join network.county c using (qid) where c is Null;
+ 
+
+END;

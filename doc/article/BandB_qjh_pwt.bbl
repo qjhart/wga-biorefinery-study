@@ -1,0 +1,28 @@
+\begin{thebibliography}{5}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Jenkins et~al.(2000)Jenkins, Bakker-Dhaliwal, Summers, Bernheim, Lee,
+  Huisman, and Yan}]{Jenkins2000}
+Jenkins, B., Bakker-Dhaliwal, R., Summers, M., Bernheim, L., Lee, H., Huisman,
+  W., Yan, L., 2000. {Equipment performance, costs, and constraints in the
+  commercial harvesting of rice straw for industrial applications}. 2000 ASAE
+  Annual International Meeting, Milwaukee, WI.
+
+\bibitem[{Perlack and Turhollow(2003)}]{Perlack2003}
+Perlack, R.~D., Turhollow, A.~F., 2003. Feedstock cost analysis of corn stover
+  residues for further processing. Energy 28~(14), 1395--1403.
+
+\bibitem[{Railroad(2007)}]{Railroad2007}
+Railroad, U.~P., 2007. Item 1000-ag mileage scale.
+
+\bibitem[{Reynolds(2002)}]{Reynolds2002}
+Reynolds, R., 2002. Infrastructure requirements for an expanded fuel ethanol
+  industry. Consultant's report, {Oak Ridge National Laboratory}.
+
+\bibitem[{Tidewater(2007)}]{Tidewater2007}
+Tidewater, 2007. Rate schedule 200-a. Tech. rep., Tidewater Inc.
+
+\end{thebibliography}

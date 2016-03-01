@@ -1,0 +1,37 @@
+<?xml version="1.0" ?><Map bgcolor="rgb(255,255,255)" srs="+init=esri:102004">
+    <Style name="brfn_locations_style">
+        <Rule>
+            <Filter>([f_type]='dry_mill')</Filter>
+            <PointSymbolizer file="sym_0.png" height="9" type="png" width="9"/>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='fame')</Filter>
+            <PointSymbolizer file="sym_1.png" height="9" type="png" width="9"/>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='ft_diesel')</Filter>
+            <PointSymbolizer file="sym_2.png" height="9" type="png" width="9"/>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='lce')</Filter>
+            <PointSymbolizer file="sym_3.png" height="9" type="png" width="9"/>
+        </Rule>
+        <Rule>
+            <Filter>([f_type]='wet_mill')</Filter>
+            <PointSymbolizer file="sym_4.png" height="9" type="png" width="9"/>
+        </Rule>
+    </Style>
+    <Layer clear_label_cache="0" name="brfn_locations" srs="+init=epsg:4326" status="1">
+        <StyleName>brfn_locations_style</StyleName>
+        <Datasource>
+            <Parameter name="dbname">geo</Parameter>
+            <Parameter name="estimate_extent">0</Parameter>
+            <Parameter name="extent">-6173873.23495,-1291465.9268,2253634.60832,3738715.06742</Parameter>
+            <Parameter name="geometry_field">location</Parameter>
+            <Parameter name="srid">4326</Parameter>
+            <Parameter name="table">(SELECT * FROM &quot;r_baseline&quot;.&quot;brfn_locations&quot; WHERE GeometryType(&quot;location&quot;) IN ('POINT','MULTIPOINT')) as &quot;brfn_locations&quot;</Parameter>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="user"/>
+        </Datasource>
+    </Layer>
+</Map>

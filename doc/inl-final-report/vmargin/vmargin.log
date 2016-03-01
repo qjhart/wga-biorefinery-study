@@ -1,0 +1,279 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2009.6.23)  23 JUN 2009 17:36
+entering extended mode
+ %&-line parsing enabled.
+**vmargin.dtx
+(./vmargin.dtx
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+File: vmargin.dtx 2004/07/15 v2.5 set document margins (VK)
+(/usr/share/texmf-texlive/tex/latex/base/ltxdoc.cls
+Document Class: ltxdoc 1999/08/08 v2.0u Standard LaTeX documentation class
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/base/doc.sty
+Package: doc 2006/02/02 v2.1d Standard LaTeX documentation package (FMi)
+\c@StandardModuleDepth=\count87
+\guard@level=\count88
+\MacrocodeTopsep=\skip43
+\MacroIndent=\dimen103
+\macro@cnt=\count89
+\MacroTopsep=\skip44
+\index@excludelist=\toks14
+
+(/usr/share/texmf-texlive/tex/latex/tools/multicol.sty
+Package: multicol 2006/05/18 v1.6g multicolumn formatting (FMi)
+\c@tracingmulticols=\count90
+\mult@box=\box26
+\multicol@leftmargin=\dimen104
+\c@unbalance=\count91
+\c@collectmore=\count92
+\doublecol@number=\count93
+\multicoltolerance=\count94
+\multicolpretolerance=\count95
+\full@width=\dimen105
+\page@free=\dimen106
+\premulticols=\dimen107
+\postmulticols=\dimen108
+\multicolsep=\skip45
+\multicolbaselineskip=\skip46
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count96
+\c@finalcolumnbadness=\count97
+\last@try=\dimen109
+\multicolovershoot=\dimen110
+\multicolundershoot=\dimen111
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+)
+\IndexMin=\dimen112
+\c@IndexColumns=\count98
+\GlossaryMin=\dimen113
+\c@GlossaryColumns=\count99
+\check@sum=\count100
+\bslash@cnt=\count101
+\wrong@table=\toks15
+\c@CodelineNo=\count102
+)) (./vmargin.sty
+Package: vmargin 2004/07/15 V2.5 set document margins (VK)
+
+Package: vmargin 2004/07/15 V2.5 set document margins (VK)
+\PaperWidth=\dimen114
+\PaperHeight=\dimen115
+)
+\@glossaryfile=\write3
+\openout3 = `vmargin.glo'.
+
+
+Writing glossary file vmargin.glo 
+\@indexfile=\write4
+\openout4 = `vmargin.idx'.
+
+Writing index file vmargin.idx
+(./vmargin.aux)
+\openout1 = `vmargin.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+Package doc Info: Made | a short reference for \verb on input line 76.
+ (./vmargin.dtx
+File: vmargin.dtx 2004/07/15 V2.5 set document margins (VK)
+
+***************************
+* Character table correct *
+***************************
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 177.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 177.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 177.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 177.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 177.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 181.
+(./vmargin.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+)
+\tf@toc=\write5
+\openout5 = `vmargin.toc'.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 193.
+
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 193.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Marginpar on page 2 moved.
+
+[2]
+Overfull \hbox (8.28778pt too wide) in paragraph at lines 327--332
+[]\OT1/cmtt/m/n/10 \setmarginsrb{$\OMS/cmsy/m/n/10 h$[]\OT1/cmr/m/it/10 leftmar
+gin$\OMS/cmsy/m/n/10 i$[][]\OT1/cmtt/m/n/10 }{$\OMS/cmsy/m/n/10 h$[]\OT1/cmr/m/
+it/10 topmargin$\OMS/cmsy/m/n/10 i$[][]\OT1/cmtt/m/n/10 }{$\OMS/cmsy/m/n/10 h$[
+]\OT1/cmr/m/it/10 rightmargin$\OMS/cmsy/m/n/10 i$[][]\OT1/cmtt/m/n/10 }{$\OMS/c
+msy/m/n/10 h$[]\OT1/cmr/m/it/10 bottommargin$\OMS/cmsy/m/n/10 i$[][]\OT1/cmtt/m
+/n/10 }% 
+ []
+
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+
+Overfull \hbox (13.53773pt too wide) in paragraph at lines 348--353
+[]\OT1/cmtt/m/n/10 \setmargnohfrb{$\OMS/cmsy/m/n/10 h$[]\OT1/cmr/m/it/10 leftma
+rgin$\OMS/cmsy/m/n/10 i$[][]\OT1/cmtt/m/n/10 }{$\OMS/cmsy/m/n/10 h$[]\OT1/cmr/m
+/it/10 topmargin$\OMS/cmsy/m/n/10 i$[][]\OT1/cmtt/m/n/10 }{$\OMS/cmsy/m/n/10 h$
+[]\OT1/cmr/m/it/10 rightmargin$\OMS/cmsy/m/n/10 i$[][]\OT1/cmtt/m/n/10 }{$\OMS/
+cmsy/m/n/10 h$[]\OT1/cmr/m/it/10 bottommargin$\OMS/cmsy/m/n/10 i$[][]\OT1/cmtt/
+m/n/10 }% 
+ []
+
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+
+Overfull \hbox (9.15854pt too wide) in paragraph at lines 395--413
+[][][]\OT1/cmr/m/n/10 which ini-tialises []\OT1/cmtt/m/n/10 \hoffset\OT1/cmr/m/
+n/10 , []\OT1/cmtt/m/n/10 \voffset \OT1/cmr/m/n/10 to -1truein and []\OT1/cmtt/
+m/n/10 \oddsidemargin\OT1/cmr/m/n/10 , []\OT1/cmtt/m/n/10 \evensidemargin\OT1/c
+mr/m/n/10 ,
+ []
+
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+[3]
+Overfull \hbox (11.62433pt too wide) in paragraph at lines 466--469
+[]\OT1/cmr/m/n/10 Change the de-fault page ori-en-ta-tion to land-scape. Note: 
+us-ing []\OT1/cmtt/m/n/10 \setpapersize
+ []
+
+[4] [5] [6]
+Overfull \hbox (9.60046pt too wide) in paragraph at lines 759--759
+ [][]    \OT1/cmtt/m/n/9 \oddsidemargin -1truein\evensidemargin\oddsidemargin\t
+opmargin\oddsidemargin 
+ []
+
+[7] [8]
+*******************
+* Checksum passed *
+*******************
+) (./vmargin.gls
+LaTeX Font Info:    Font shape `OMS/cmtt/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+
+Overfull \hbox (36.70134pt too wide) in paragraph at lines 14--15
+[]| \OT1/cmr/m/n/9 Gen-eral: Fixed bug in \OT1/cmtt/m/n/9 \setpapersize\OMS/cms
+y/m/n/9 f\OT1/cmtt/m/n/9 custom\OMS/cmsy/m/n/9 g\OT1/cmr/m/n/9 .   
+ []
+
+
+Underfull \hbox (badness 5260) in paragraph at lines 24--25
+[]| \OT1/cmr/m/n/9 Gen-eral: Fixed doc-u-men-ta-tion for 
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+[]| \OT1/cmr/m/n/9 Gen-eral: Fixed com-ment for 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+[]| \OT1/cmr/m/n/9 Gen-eral: Re-leased un-der LPPL. 
+ []
+
+) (./vmargin.ind) [10] (./vmargin.aux) ) 
+Here is how much of TeX's memory you used:
+ 720 strings out of 95086
+ 8537 string characters out of 1183255
+ 71324 words of memory out of 1500000
+ 3916 multiletter control sequences out of 10000+50000
+ 15203 words of font info for 53 fonts, out of 1200000 for 2000
+ 28 hyphenation exceptions out of 8191
+ 30i,9n,22p,336b,348s stack positions out of 5000i,500n,6000p,200000b,5000s
+</usr/share/texmf-texlive/fonts/type1/b
+luesky/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmbx12.pf
+b></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmbx8.pfb></usr/share/texmf-
+texlive/fonts/type1/bluesky/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/type1/
+bluesky/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmmi9.pf
+b></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmmib10.pfb></usr/share/texm
+f-texlive/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type
+1/bluesky/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmr17.p
+fb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf-
+texlive/fonts/type1/bluesky/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/b
+luesky/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmr9.pfb></
+usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmss10.pfb></usr/share/texmf-tex
+live/fonts/type1/bluesky/cm/cmss17.pfb></usr/share/texmf-texlive/fonts/type1/bl
+uesky/cm/cmss9.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmsy10.pfb>
+</usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmsy6.pfb></usr/share/texmf-te
+xlive/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/bl
+uesky/cm/cmsy9.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmti10.pfb>
+</usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmti9.pfb></usr/share/texmf-te
+xlive/fonts/type1/bluesky/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/b
+luesky/cm/cmtt8.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmtt9.pfb>
+
+Output written on vmargin.pdf (10 pages, 173924 bytes).
+PDF statistics:
+ 139 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

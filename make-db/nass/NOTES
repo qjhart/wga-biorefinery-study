@@ -1,0 +1,1 @@
+create table nass.cdl_classname as select distinct class_name from pfarm.scp;

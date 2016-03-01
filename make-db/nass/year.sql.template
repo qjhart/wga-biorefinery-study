@@ -1,0 +1,30 @@
+CREATE TEMP TABLE nass_year (
+    commodity character varying(32),
+    practice character varying(128),
+    "year" integer,
+    state character varying(32),
+    county character varying(32),
+    stfips integer,
+    district character varying(6),
+    cofips integer,
+    commcode integer,
+    praccode integer,
+    planted integer,
+    pltdHarv integer,
+    harvested integer,
+--    plantedallpurposeunit character varying(32),
+    pltdYield float,
+    yield double precision,
+    yieldunit character varying(32),
+    production int8,
+    productionunit character varying(32),
+    sucrose float,
+    sucroseunit character varying(32)
+);
+
+COPY nass_year from '@FILE@' WITH CSV HEADER;
+
+insert into nass.nass (fips,"year",district,commcode,praccode,planted,pltdHarv,harvested,pltdYield,yield,yieldunit,production,productionunit,sucrose,sucroseUnit) select case WHEN (stfips<10) then '0'||stfips::varchar(1) ELSE stfips::varchar(2) END|| case WHEN (cofips<10) THEN '00'||cofips::varchar(1) WHEN (cofips<100) THEN '0'||cofips::varchar(2) ELSE cofips::varchar(3) END as fips,"year",district,commcode,praccode,planted,pltdHarv,harvested,PltdYield,yield,yieldUnit,production,productionUnit,sucrose,sucroseUnit from nass_year;
+
+
+

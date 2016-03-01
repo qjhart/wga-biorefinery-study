@@ -1,0 +1,2 @@
+lc <- read.csv(file="E:/Chevron/network/output_lc.csv",head=TRUE,sep=",")
+hist(lc$delivered_cost,xlab ="delivered cost", main="Frequency distribution of biomass \nfeedstock delivered cost", sub="$/BDT")

@@ -1,0 +1,28 @@
+select * from shortest_path('select gid as id,source::int4,target int::4,cost from network.nhpnlin_edge'::text,16690,221565,false,false);
+
+create table pfarm.pfarm_county_link (
+       pfarm_gid integer references pfarm.pfarm(pfarm_gid),
+       county_gid integer references network.county(county_gid)
+);
+
+# Indesxses on Peter's stuff
+# create index scp_geom_gist on tmp.scp using gist(the_geom gist_geometry_ops);
+
+############################################################################
+# Standard Method of building connectors.
+# 	$(call make_connector_cmds,road,city,50000,qid)
+# $1 = table
+# $2 = point
+# $3 = max_distance
+# $4 = match
+############################################################################
+define make_connector_cmds
+	 time ${PG} -c "create temp table $2_$1_connector as select $4,r.gid,line_interpolate_point(r.aea,line_locate_point(r.aea,c.centroid)) as near,distance(c.centroid,r.aea) as distance from $2 c, $1 r where c.$1_connector is Null and distance(c.centroid,envelope(r.aea)) < $3";
+	time ${PG} -c "delete from $2_$1_connector c where distance!=(select min(distance) from $2_$1_connector where $4=c.$4)";
+	time ${PG} -c "delete from $2_$1_connector c where distance>$3";
+	time ${PG} -c "update $2 c set $1_connector=MakeLine(c.centroid,cn.near) from $2_$1_connector cn where c.$4=cn.$4"
+	${PG} -c "drop table $2_$1_connector"
+endef
+
+	create temp table connect as
+	 select a.gid,r.gid,line_interpolate_point(r.extent,line_locate_point(r.$extent,c.$geom)) as near,distance(c.$geom,r.aea) as distance from $item c, $tranport r where distance(c.$geom,envelope(r.$extent)) < $distance

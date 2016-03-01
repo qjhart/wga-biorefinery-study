@@ -1,0 +1,174 @@
+
+ \begin{theindex} 
+ \makeatletter\scan@allowedfalse
+{\bfseries\hfil Symbols\hfil}\nopagebreak
+
+  \item \verb*+\@@thesubfigure+\pfill \main{63}
+  \item \verb*+\@@thesubtable+\pfill \main{76}
+  \item \verb*+\@caption+\pfill \main{314}
+  \item \verb*+\@captype+\pfill 161, 162, 164, 171, 172, 184, 221, 222, 
+		241, 308, 312, 329, 332, 333, 347, 355
+  \item \verb*+\@currentHref+\pfill 350
+  \item \verb*+\@currentlabelname+\pfill 337, 349
+  \item \verb*+\@dottedxxxline+\pfill \usage{22}, 70, 83, \main{302}
+  \item \verb*+\@listsubcaptions+\pfill \main{225}, 308, 312, 319, 323
+  \item \verb*+\@makesubfigurecaption+\pfill \main{253}
+  \item \verb*+\@makesubtablecaption+\pfill \main{253}
+  \item \verb*+\@subcaplabel+\pfill 231, 234
+  \item \verb*+\@subcaption+\pfill 207, 216, \main{225}
+  \item \verb*+\@subfigcaptionlist+\pfill \main{225}
+  \item \verb*+\@subfigure+\pfill 166, 167, \main{169}
+  \item \verb*+\@subfloat+\pfill 171, 172, \main{173}
+  \item \verb*+\@thesubfigure+\pfill \main{63}, \main{138}, \main{148}
+  \item \verb*+\@thesubtable+\pfill \main{76}, \main{138}, \main{148}
+  \item \verb*+\@undefined+\pfill 6
+
+  \indexspace
+{\bfseries\hfil C\hfil}\nopagebreak
+
+  \item \verb*+\c@figure+\pfill \usage{21}
+  \item \verb*+\c@lofdepth+\pfill \main{68}
+  \item \verb*+\c@lotdepth+\pfill \main{81}
+  \item \verb*+\c@subfigure+\pfill \main{60}
+  \item \verb*+\c@subtable+\pfill \main{73}
+  \item \verb*+\c@table+\pfill \usage{21}
+  \item \verb*+\captcont+\pfill \usage{27}
+  \item \verb*+\captcont*+\pfill \usage{27}
+  \item \verb*+\caption+\pfill \usage{27}
+  \item \verb*+\caption*+\pfill \usage{27}
+  \item \verb*+\csname+\pfill 27, 28
+
+  \indexspace
+{\bfseries\hfil E\hfil}\nopagebreak
+
+  \item \verb*+\end@dblfloat+\pfill 25, 26, \main{306}
+  \item \verb*+\end@float+\pfill 23, 24, \main{306}
+  \item \verb*+\endcsname+\pfill 27, 28
+  \item \verb*+\endfigure+\pfill 23
+  \item \verb*+\endtable+\pfill 24
+  \item environments:\efill 
+ \subitem {\ttfamily subfloat}\pfill \usage{28}
+  \item \verb*+\expandafter+\pfill 27, 338, 349
+  \item \verb*+\ext@subfigure+\pfill \main{68}
+  \item \verb*+\ext@subtable+\pfill \main{81}
+
+  \indexspace
+{\bfseries\hfil F\hfil}\nopagebreak
+
+  \item \verb*+\figuretopcapfalse+\pfill 123
+  \item \verb*+\figuretopcaptrue+\pfill \usage{23}, 124
+
+  \indexspace
+{\bfseries\hfil H\hfil}\nopagebreak
+
+  \item \verb*+\hyperrefloadedtrue+\pfill 32
+
+  \indexspace
+{\bfseries\hfil I\hfil}\nopagebreak
+
+  \item \verb*+\iffiguretopcap+\pfill \main{61}
+  \item \verb*+\ifhyperrefloaded+\pfill 29, 336, 344
+  \item \verb*+\ifsf@tight+\pfill \main{59}, \main{140}, \main{150}, 
+		177
+  \item \verb*+\ifsubcapcenter+\pfill \main{37}, 292
+  \item \verb*+\ifsubcapcenterlast+\pfill \main{37}, 296
+  \item \verb*+\ifsubcaphang+\pfill \main{37}, 273
+  \item \verb*+\ifsubcapnooneline+\pfill \main{37}, 265
+  \item \verb*+\ifsubcapraggedright+\pfill \main{37}, 287
+  \item \verb*+\ifsubfiguretopcap+\pfill \main{61}
+  \item \verb*+\ifsubtabletopcap+\pfill \main{74}
+  \item \verb*+\iftabletopcap+\pfill \main{74}
+
+  \indexspace
+{\bfseries\hfil L\hfil}\nopagebreak
+
+  \item \verb*+\l@subfigure+\pfill \usage{22}, \main{68}
+  \item \verb*+\l@subtable+\pfill \main{81}
+  \item \verb*+\listsubcaptions+\pfill \main{225}
+
+  \indexspace
+{\bfseries\hfil N\hfil}\nopagebreak
+
+  \item \verb*+\next+\pfill 21, 27
+
+  \indexspace
+{\bfseries\hfil P\hfil}\nopagebreak
+
+  \item \verb*+\p@subfigure+\pfill \main{63}
+  \item \verb*+\p@subtable+\pfill \main{76}
+  \item \verb*+\PackageWarningNoLine+\pfill 7
+
+  \indexspace
+{\bfseries\hfil S\hfil}\nopagebreak
+
+  \item \verb*+\sf@@sub@label+\pfill 340, \main{341}
+  \item \verb*+\sf@floatfix+\pfill \main{4}
+  \item \verb*+\sf@sub@label+\pfill 328, 329, \main{335}
+  \item \verb*+\sf@temp+\pfill 245, 246, 250
+  \item \verb*+\sf@tightfalse+\pfill 140
+  \item \verb*+\sf@tighttrue+\pfill 59, 150
+  \item \verb*+\strip@period+\pfill 338, 349
+  \item \verb*+\sub@label+\pfill \main{326}
+  \item \verb*+\subcapcenterfalse+\pfill 88
+  \item \verb*+\subcapcenterlastfalse+\pfill 89
+  \item \verb*+\subcapcenterlasttrue+\pfill 94
+  \item \verb*+\subcapcentertrue+\pfill 93
+  \item \verb*+\subcapfont+\pfill \main{54}, 257, 278, 282
+  \item \verb*+\subcapfont@c+\pfill \main{54}, 117, 118
+  \item \verb*+\subcapfont@f+\pfill \main{54}, 114--116
+  \item \verb*+\subcapfont@s+\pfill \main{54}, 119--122
+  \item \verb*+\subcaphangfalse+\pfill 87
+  \item \verb*+\subcaphangtrue+\pfill 92
+  \item \verb*+\subcaplabelfont+\pfill \main{49}, 256, 274, 281, 362
+  \item \verb*+\subcaplabelfont@c+\pfill \main{49}, 108, 109
+  \item \verb*+\subcaplabelfont@f+\pfill \main{49}, 105--107
+  \item \verb*+\subcaplabelfont@s+\pfill \main{49}, 110--113
+  \item \verb*+\subcapnoonelinefalse+\pfill 90
+  \item \verb*+\subcapnoonelinetrue+\pfill 95
+  \item \verb*+\subcapraggedrightfalse+\pfill 91
+  \item \verb*+\subcapraggedrighttrue+\pfill 96
+  \item \verb*+\subcapsize+\pfill \main{48}, 99--104, 255, 274, 286
+  \item \verb*+\subfig@bottom+\pfill 174, 186, 189, 219
+  \item \verb*+\subfig@caption+\pfill 264, 266, \main{272}
+  \item \verb*+\subfig@captionpar+\pfill \main{272}
+  \item \verb*+\subfig@end@dblfloat+\pfill \main{306}
+  \item \verb*+\subfig@end@float+\pfill \main{306}
+  \item \verb*+\subfig@oldcaption+\pfill \main{314}
+  \item \verb*+\subfig@oldlabel+\pfill 159, \main{325}, 343
+  \item \verb*+\subfig@top+\pfill 173, 185, 188, 199, 202
+  \item \verb*+\subfigbottomskip+\pfill \main{42}, \main{131}, 
+		\main{141}, 185, 189
+  \item \verb*+\subfigcapmargin+\pfill \main{46}, \main{131}, 
+		\main{141}, 258
+  \item \verb*+\subfigcapskip+\pfill \main{42}, \main{131}, \main{141}, 
+		208, 215
+  \item \verb*+\subfigcaptopadj+\pfill \main{42}, \main{131}, 
+		\main{141}, 209
+  \item \verb*+\subfiglabelskip+\pfill \main{46}, 66, 79, \main{131}, 
+		\main{141}, 148, 149
+  \item \verb*+\subfigtopskip+\pfill \main{42}, \main{131}, \main{141}, 
+		186, 188
+  \item \verb*+\subfigure+\pfill \usage{5}, \usage{15}, \main{157}, 168
+  \item \verb*+\subfiguretopcapfalse+\pfill \usage{23}, 127
+  \item \verb*+\subfiguretopcaptrue+\pfill \usage{23}, 128
+  \item {\ttfamily subfloat} (environment)\pfill \usage{28}
+  \item \verb*+\subfloat@label+\pfill \usage{27}, 160, \main{326}
+  \item \verb*+\Subref+\pfill \usage{16}, \usage{19}, \main{361}
+  \item \verb*+\subref+\pfill \usage{16}, \usage{19}, \main{359}
+  \item \verb*+\subtable+\pfill \usage{5}, \main{168}
+  \item \verb*+\subtabletopcapfalse+\pfill 129
+  \item \verb*+\subtabletopcaptrue+\pfill 130
+
+  \indexspace
+{\bfseries\hfil T\hfil}\nopagebreak
+
+  \item \verb*+\tabletopcapfalse+\pfill 125
+  \item \verb*+\tabletopcaptrue+\pfill 126
+  \item \verb*+\theHsubfigure+\pfill 33
+  \item \verb*+\theHsubtable+\pfill 34
+  \item \verb*+\thesubfigure+\pfill \main{63}, 138, 148
+  \item \verb*+\thesubtable+\pfill \main{76}, 139, 149
+  \item \verb*+\toclevel@subfigure+\pfill \main{29}
+  \item \verb*+\toclevel@subtable+\pfill \main{29}
+
+ \end{theindex}
